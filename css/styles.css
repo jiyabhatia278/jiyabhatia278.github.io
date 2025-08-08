@@ -10970,3 +10970,7 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+body {
+  background-color: #f5e8ff !important; /* pastel purple */
+}
