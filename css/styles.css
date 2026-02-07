@@ -130,6 +130,7 @@ h2, .h2 {
   color: #61205f;
 }
 
+
 h1, .h1 {
   font-size: calc(1.725rem + 5.7vw);
 }
@@ -10978,6 +10979,11 @@ section.resume-section .resume-section-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+}
+
+.edu-logo {
+    width: 48px;
+    height: auto;
 }
 
 body {
