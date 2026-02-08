@@ -11005,6 +11005,22 @@ section.resume-section .resume-section-content {
     margin-bottom: 4px;
 }
 
+.dev-icons {
+    color: #000000; /* Sets the color to black */
+    font-size: 3rem; /* Makes the icons significantly bigger (adjust as needed) */
+}
+
+/* Optional: Add spacing between icons and a hover effect */
+.dev-icons .list-inline-item i {
+    margin-right: 15px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.dev-icons .list-inline-item i:hover {
+    color: #6f42c1; /* Subtle purple hover to match your #f5e8ff theme */
+    transform: scale(1.1); /* Slightly enlarges on hover */
+}
+
 body {
   background-color: #f5e8ff !important; /* pastel purple */
 }
