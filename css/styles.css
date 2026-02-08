@@ -10950,18 +10950,8 @@ p.lead {
   background-color: #61205f;
 }
 
-/* Target the icons specifically inside the list */
-.dev-icons .list-inline-item i {
-    color: #000000 !important; /* Forces black */
-    font-size: 4rem !important; /* Forces a larger size - try 4rem for high impact */
-    margin-bottom: 1rem;
-    transition: transform 0.2s ease-in-out;
-}
-
-/* Optional hover effect to match your purple theme */
-.dev-icons .list-inline-item i:hover {
-    color: #6f42c1 !important; 
-    transform: scale(1.1);
+.dev-icons {
+  font-size: 7rem;
 }
 
 section.resume-section {
