@@ -10950,8 +10950,18 @@ p.lead {
   background-color: #61205f;
 }
 
-.dev-icons {
-  font-size: 3rem;
+/* Target the icons specifically inside the list */
+.dev-icons .list-inline-item i {
+    color: #000000 !important; /* Forces black */
+    font-size: 4rem !important; /* Forces a larger size - try 4rem for high impact */
+    margin-bottom: 1rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+/* Optional hover effect to match your purple theme */
+.dev-icons .list-inline-item i:hover {
+    color: #6f42c1 !important; 
+    transform: scale(1.1);
 }
 
 section.resume-section {
@@ -11005,21 +11015,7 @@ section.resume-section .resume-section-content {
     margin-bottom: 4px;
 }
 
-.dev-icons {
-    color: #000000; /* Sets the color to black */
-    font-size: 3rem; /* Makes the icons significantly bigger (adjust as needed) */
-}
 
-/* Optional: Add spacing between icons and a hover effect */
-.dev-icons .list-inline-item i {
-    margin-right: 15px;
-    transition: transform 0.2s ease-in-out;
-}
-
-.dev-icons .list-inline-item i:hover {
-    color: #6f42c1; /* Subtle purple hover to match your #f5e8ff theme */
-    transform: scale(1.1); /* Slightly enlarges on hover */
-}
 
 body {
   background-color: #f5e8ff !important; /* pastel purple */
