@@ -2860,7 +2860,7 @@ textarea.form-control-lg {
   --bs-btn-bg: #61205f;
   --bs-btn-border-color: #61205f;
   --bs-btn-hover-color: #ffffff;
-  --bs-btn-hover-bg: #000;
+  --bs-btn-hover-bg: #ffffff;
   --bs-btn-hover-border-color: #ffffff;
   --bs-btn-focus-shadow-rgb: 161, 79, 48;
   --bs-btn-active-color: #000;
@@ -10951,7 +10951,7 @@ p.lead {
 }
 
 .dev-icons {
-  font-size: 7rem;
+  font-size: 3rem;
 }
 
 section.resume-section {
@@ -10980,32 +10980,6 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
-
-.card {
-    border-radius: 15px !important;
-    transition: transform 0.3s ease;
-}
-
-.card:hover {
-    transform: translateY(-10px); /* Lifts the card when hovering */
-}
-
-.card-img-top {
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    height: 180px;
-    object-fit: cover; /* Ensures images don't stretch */
-}
-
-.badge {
-    font-weight: 400;
-    font-size: 0.75rem;
-    background-color: #343a40 !important; /* Slightly lighter than the card bg */
-    margin-right: 4px;
-    margin-bottom: 4px;
-}
-
-
 
 body {
   background-color: #f5e8ff !important; /* pastel purple */
