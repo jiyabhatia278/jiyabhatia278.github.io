@@ -10982,15 +10982,15 @@ section.resume-section .resume-section-content {
 }
 
 .skills-row {
-  display: flex;
-  align-items: center;
-  gap: 24px;          /* spacing between logos */
-  flex-wrap: wrap;    /* optional: keeps layout safe on smaller screens */
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    margin-bottom: 20px;  /* increase this */
 }
 
 .skill-logo {
-  width: 1in;         /* ~96px */
-  height: 1in;        /* ~96px */
+  width: auto;         /* ~96px */
+  height: 0.8in;        /* ~96px */
   object-fit: contain;
   display: block;
 }
