@@ -10981,6 +10981,25 @@ section.resume-section .resume-section-content {
   }
 }
 
+.skills-row {
+  display: flex;
+  align-items: center;
+  gap: 24px;          /* spacing between logos */
+  flex-wrap: wrap;    /* optional: keeps layout safe on smaller screens */
+}
+
+.skill-logo {
+  width: 1in;         /* ~96px */
+  height: 1in;        /* ~96px */
+  object-fit: contain;
+  display: block;
+}
+
+/* Optional: if you want them to “sit” nicer visually */
+.skill-logo {
+  padding: 6px;       /* adds a little breathing room for oddly-shaped logos */
+}
+
 body {
   background-color: #f5e8ff !important; /* pastel purple */
 }
